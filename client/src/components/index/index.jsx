@@ -1,6 +1,6 @@
 
 
-const Index = () => {
+const Index = ({setIsAuthenticated}) => {
     return(
         <h1>index</h1>
     )

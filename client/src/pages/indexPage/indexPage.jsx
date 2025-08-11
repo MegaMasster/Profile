@@ -1,8 +1,8 @@
 import Index from "../../components/index/index.jsx"
 
-const IndexPage = () => {
+const IndexPage = ({setIsAuthenticated}) => {
     return(
-        <Index/>
+        <Index setIsAuthenticated={setIsAuthenticated}/>
     )
 }
 export default IndexPage
